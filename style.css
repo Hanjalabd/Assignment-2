@@ -1,0 +1,136 @@
+.header-nav{
+    padding: 50px 140px;
+}
+.logo{
+    position: absolute;
+    top: 85px;
+    left: 200px;
+    height: 6%;
+    width: 6%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    margin-right: 20px;
+}
+nav li{
+    list-style: none;
+    margin-right: 28px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav-tittle{
+   font-size: 30px;
+   font-weight: 700;
+}
+.Travel{
+    color: tomato;
+}
+.Home{
+    color: tomato;
+}
+.bg-image{
+    position: relative;
+    max-width: 900px;
+    margin: 15px auto;
+    height: 68vh;
+    background-image: linear-gradient( to right bottom, rgba(54, 60, 61, 0.333), rgba(127, 144, 161, 0.306)), url(Images/banner.png);
+    background-repeat: no-repeat;
+}
+.content{
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    border-radius: 6px;
+}
+
+.banner-tittle{
+    font-weight: 800;
+    font-size: 55px;
+    color: aliceblue;
+ }
+ .banner-discrip{
+    color: aliceblue;
+ }
+ .check-box{
+     margin: 22px ;
+     padding: 5px;
+     height: 50px;
+     width: 700px;
+ }
+ input[type="text"]
+ {   
+     width: 127px;
+     height: 44px;
+     border: none;
+     outline: none;
+     padding: 0 5px;
+     border-radius: 5px;
+    
+ }
+ input[type="submit"]
+ {
+     background-color: #FD6E0A;
+     width: 127px;
+     height: 44px;
+     border: none;
+     outline: none;
+     padding: 0 5px;
+     color: aliceblue;
+     border-radius: 5px;
+ }
+ @media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column; 
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .container{
+        padding: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+    .container-2{
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .container-4{
+        flex-direction: column;
+        height: auto;
+    }
+    .box-1,
+.box-2,
+.box-3{
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    width: 50%;
+}
+.last-finishing{
+    padding: 5px;
+    height: 230px;
+}
+.logo{
+    top: 89px;
+left: 74px;
+}
+
+ }
+
